@@ -3,7 +3,7 @@ version: "3.8"
 services:
   database:
     image: postgres
-    container_name: db_demen
+    container_name: db_fc
     ports:
       - ${DB_PORT}:5432
     environment:
